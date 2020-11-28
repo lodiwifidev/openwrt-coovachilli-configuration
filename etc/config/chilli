@@ -1,0 +1,62 @@
+# 
+# LODI Wi-Fi Coova-Chilli configuration file modified by LNCC 
+# 
+
+config chilli 
+option domain lodiwifi.net 
+option debug 
+option debugfacility 3
+option logfacility 3
+option loglevel 7
+option interval 3600 
+option swapoctets 1 
+
+######## TUN and DHCP Parameters ######## 
+option tundev 'tun1' 
+option dhcpif 'br-wlan1' 
+option net 192.168.182.0/24 
+option lease 600 
+option dns1 192.168.200.254
+option dns2 192.168.88.1
+option ipup '/etc/chilli/up.sh' 
+option ipdown '/etc/chilli/down.sh' 
+
+option locationname 'newhotspot'
+option radiuslocationname 'LODI Wi-Fi 2020,newhotspot'
+option radiuslocationid 'isocc=ph,cc=63,ac=1900,network=LODI Wi-Fi 2020' 
+
+######## Radius parameters ######## 
+option radiusserver1 '192.168.200.3' 
+option radiusserver2 '192.168.200.254'
+option radiusauthport 1812 
+option radiusacctport 1813 
+option nasip 10.2.255.254 
+option radiusnasid 'newhotspot' 
+option radiussecret 'newnormalnetwork' 
+
+option ssid 'LODI Wi-Fi 2020' 
+
+######## Universal access method (UAM) parameters ######## 
+option uamserver 'https://hotspot.lodiwifi.net/hotspotlogin.php' 
+option uamlisten 192.168.182.1 
+option uamport 3390 
+option uamanydns 0
+option nouamsuccess 1
+option redirssl 1
+option uamsecret 'wewillprevail' 
+option uamallowed 'hotspot.lodiwifi.net,paystation.lodiwifi.net,pool.ntp.org' 
+option uamdomain lodiwifi.net 
+option uamaliasname connect
+
+option uamuissl 1
+option uamuiport 3391
+option sslkeyfile    "/etc/lodiwifi/ssl/connect.lodiwifi.net.key"
+option sslcertfile   "/etc/lodiwifi/ssl/connect.lodiwifi.net.crt"
+option sslcafile     "/etc/lodiwifi/ssl/connect.lodiwifi.net.fullchain"
+
+# % bandwidth use is not reported properly.
+option defbandwidthmaxdown 100000000
+option defbandwidthmaxup 100000000
+
+
+

@@ -1,0 +1,17 @@
+config watchping 'wifi'
+	option enabled '0'
+	option host 'wifi.accesspoint'
+	option timeout '3'
+	option command '/sbin/wifi' # "If wifi is already up when you run "wifi" with no parameters, the wifi system will be stopped and restarted."
+
+config watchping 'network'
+	option enabled '0'
+	option host 'network.uplink'
+	option timeout '3'
+	option command '/etc/init.d/network restart'
+
+config watchping 'openvpn'
+	option enabled '1'
+	option host '192.168.200.254'
+	option timeout '5'
+	option command '/etc/init.d/openvpn restart'
