@@ -1,0 +1,40 @@
+
+config system
+	option ttylogin '0'
+	option log_size '64'
+	option urandom_seed '0'
+	option zonename 'Asia/Manila'
+	option log_proto 'udp'
+	option conloglevel '8'
+	option cronloglevel '5'
+	option timezone 'PST-8'
+	option log_file '/var/log/messages'
+	option hostname 'newhotspot.lodiwifi.net'
+
+config timeserver 'ntp'
+	list server '0.openwrt.pool.ntp.org'
+	list server '1.openwrt.pool.ntp.org'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+	option enable_server '1'
+
+config led 'led_internet'
+	option name 'internet'
+	option sysfs 'newifi-d2:amber:internet'
+	option trigger 'switch0'
+	option port_mask '0x10'
+
+config led 'led_wlan2g'
+	option name 'WiFi 2.4GHz'
+	option sysfs 'newifi-d2:blue:wlan2g'
+	option trigger 'netdev'
+	option mode 'link tx rx'
+	option dev 'wlan1'
+
+config led 'led_wlan5g'
+	option name 'WiFi 5GHz'
+	option sysfs 'newifi-d2:blue:wlan5g'
+	option trigger 'netdev'
+	option mode 'link tx rx'
+	option dev 'wlan2'
+
