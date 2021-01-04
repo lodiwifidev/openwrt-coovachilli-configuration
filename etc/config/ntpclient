@@ -1,0 +1,19 @@
+
+config ntpserver
+	option port '123'
+	option hostname 'vpn.lodiwifi.net'
+
+config ntpserver
+	option port '123'
+	option hostname 'control.lodiiwifi.net'
+
+config ntpserver
+	option port '123'
+	option hostname 'hotspot.lodiwifi.net'
+
+config ntpdrift
+	option freq '0'
+
+config ntpclient
+	option interval '600'
+
