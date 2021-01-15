@@ -1,1 +1,217 @@
-{"name":"LODI Wi-Fi HotSpot","hotspotname":"newhotspot","tag":"LODI Wi-Fi HotSpot ","password":"newnormalnetwork","uamsecret":"newnormalnetwork","hostname":"newhost","timezone":"Asia\/Manila","language":"en","pkg":[{"otpkey":"67D546S4V62NQTJN","on":"1","duration":"15","cost":"0","tag":"Libre"},{"otpkey":"67D546S4V62NQTJN","on":"0","duration":"30","cost":"1","tag":"Merienda"},{"otpkey":"67D546S4V62NQTJN","on":"1","duration":"60","cost":"5","tag":"Chill Tayo"},{"otpkey":"67D546S4V62NQTJN","on":"0","duration":"240","cost":"5","tag":"Homework"},{"otpkey":"6EVZNKTN33XA7ZDH","on":"0","duration":"480","cost":"10","tag":"Bakasyon :)"},{"otpkey":"67D546S4V62NQTJN","on":"1","duration":"1440","cost":"15","tag":"Magdamag"},{"otpkey":"67D546S4V62NQTJN","on":"0","duration":"9999","cost":"9999","tag":"Package-6"},{"otpkey":"67D546S4V62NQTJN","on":"0","duration":"9999","cost":"9999","tag":"Package-9"},{"on":"0","tag":"Package-8","duration":"9999","cost":"9999","otpkey":"67D546S4V62NQTJN"},{"on":"0","tag":"Package-7","duration":"9999","cost":"9999","otpkey":"67D546S4V62NQTJN"}],"suser":[{"otpkey":"67D546S4V62NQTJN","privilegemask":"2","username":"System Administrator"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"1","username":"System Manager"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-2"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-3"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-4"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-5"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-6"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-7"},{"otpkey":"67D546S4V62NQTJN","privilegemask":"0","username":"Unlimited-User-8"},{"username":"Unlimited-User-9","privilegemask":"0","otpkey":"67D546S4V62NQTJN"}],"ps":[{"outletname":"Outlet-1","type":"c","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"Our Home"},{"outletname":"Outlet-2","type":"c","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"Office"},{"outletname":"newpaystation","type":"v","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"Sari-Sari Store"},{"outletname":"Outlet-3","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 3"},{"outletname":"Outlet-4","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 4"},{"outletname":"Outlet-5","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 5"},{"outletname":"Outlet-6","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 6"},{"outletname":"Outlet-7","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 7"},{"outletname":"Outlet-8","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 8"},{"outletname":"Outlet-9","type":"-","pin":"1234","otpkey":"67D546S4V62NQTJN","locationtag":"location 9"}]}
+{
+    "name": "LODI Wi-Fi HotSpot",
+    "hotspotname": "newhotspot",
+    "tag": "LODI Wi-Fi HotSpot ",
+    "password": "newnormalnetwork",
+    "uamsecret": "newnormalnetwork",
+    "hostname": "newhost",
+    "timezone": "Asia/Manila",
+    "language": "en",
+    "ssidbase" : "LODI Wi-Fi 2020",
+    "pkg": [
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "1",
+            "duration": "15",
+            "cost": "0",
+            "tag": "Libre"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "0",
+            "duration": "30",
+            "cost": "1",
+            "tag": "Merienda"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "1",
+            "duration": "60",
+            "cost": "5",
+            "tag": "Chill Tayo"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "0",
+            "duration": "240",
+            "cost": "5",
+            "tag": "Homework"
+        },
+        {
+            "otpkey": "6EVZNKTN33XA7ZDH",
+            "on": "0",
+            "duration": "480",
+            "cost": "10",
+            "tag": "Bakasyon :)"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "1",
+            "duration": "1440",
+            "cost": "15",
+            "tag": "Magdamag"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "0",
+            "duration": "9999",
+            "cost": "9999",
+            "tag": "Package-6"
+        },
+        {
+            "otpkey": "67D546S4V62NQTJN",
+            "on": "0",
+            "duration": "9999",
+            "cost": "9999",
+            "tag": "Package-9"
+        },
+        {
+            "on": "0",
+            "tag": "Package-8",
+            "duration": "9999",
+            "cost": "9999",
+            "otpkey": "67D546S4V62NQTJN"
+        },
+        {
+            "on": "0",
+            "tag": "Package-7",
+            "duration": "9999",
+            "cost": "9999",
+            "otpkey": "67D546S4V62NQTJN"
+        }
+    ],
+    "suser": [
+        {
+            "username": "System Administrator",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "2"
+        },
+        {
+            "username": "System Manager",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "1"
+        },
+        {
+            "username": "Unlimited-User-2",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-3",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-4",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-5",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-6",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-7",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-8",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        },
+        {
+            "username": "Unlimited-User-9",
+            "otpkey": "67D546S4V62NQTJN",
+            "pin": "1234",
+            "privilegemask": "0"
+        }
+    ],
+    "ps": [
+        {
+            "outletname": "Outlet-1",
+            "type": "c",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "Our Home"
+        },
+        {
+            "outletname": "Outlet-2",
+            "type": "c",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "Office"
+        },
+        {
+            "outletname": "newpaystation",
+            "type": "v",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "Sari-Sari Store"
+        },
+        {
+            "outletname": "Outlet-3",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 3"
+        },
+        {
+            "outletname": "Outlet-4",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 4"
+        },
+        {
+            "outletname": "Outlet-5",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 5"
+        },
+        {
+            "outletname": "Outlet-6",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 6"
+        },
+        {
+            "outletname": "Outlet-7",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 7"
+        },
+        {
+            "outletname": "Outlet-8",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 8"
+        },
+        {
+            "outletname": "Outlet-9",
+            "type": "-",
+            "pin": "1234",
+            "otpkey": "67D546S4V62NQTJN",
+            "locationtag": "location 9"
+        }
+    ]
+}
