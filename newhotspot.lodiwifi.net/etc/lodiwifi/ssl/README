@@ -1,6 +1,0 @@
-#
-# coova-chilli SSL files
-#
-These files are maintained by control.lodiwifi.net and scp'd here
-whenever they are renewed.  HotSpots via their directive.sh script
-will download these files whenever there is a change using rsync.

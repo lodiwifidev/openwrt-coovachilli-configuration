@@ -1,5 +1,0 @@
-
-config openvpn 'Nexus'
-	option config '/etc/openvpn/Nexus.ovpn'
-	option enabled '1'
-

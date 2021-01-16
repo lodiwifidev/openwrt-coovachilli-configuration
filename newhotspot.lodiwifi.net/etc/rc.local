@@ -1,6 +1,0 @@
-# This executes on boot after most systems have been started.
-
-# Start the directive processing loop
-/root/directive.sh &
-
-exit 0
