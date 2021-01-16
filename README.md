@@ -1,7 +1,7 @@
 # openwrt-coovachilli
 
 A LODI WiFi HotSpot is a captive portal solution for providing Wi-Fi access to guests, patrons, customers, etc.
-which uses Coova-Chill and RFC6238 to generate one-time-passwords. It may be used by by WISPs, restaurants and 
+which uses Coova-Chill and RFC6238 to generate one-time-passwords. It may be used by WISPs, restaurants and 
 other venues, and even homes. Please visit our website and FB page for more information.
 
 This repository contains all the files needed to configure an OpenWRT router as a default LODI Wi-Fi HotSpot, 
