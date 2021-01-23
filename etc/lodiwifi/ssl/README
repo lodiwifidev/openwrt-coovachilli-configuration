@@ -1,5 +1,5 @@
 #
-# coova-chilli SSL files
+# coova-chilli and LUCI SSL files
 #
 These files are maintained by control.lodiwifi.net and scp'd here
 whenever they are renewed.  HotSpots via their directive.sh script
