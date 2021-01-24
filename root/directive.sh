@@ -46,7 +46,7 @@ do
 
          update_firmware)
    	      echo Upgrading firmware ... | $LOGGER
-            /sbin/sysupgrade $SERVER_URL/files/lodi-wi-fi-hotspot-latest-newifi-d2-squashfs-sysupgrade.bin 2>&1 | $LOGGER
+            /sbin/sysupgrade $SERVER_URL/files/targets/ramips/mt7621/lodi-wi-fi-hotspot-latest-newifi-d2-squashfs-sysupgrade.bin 2>&1 | $LOGGER
             ;;
 
          restart_service)
